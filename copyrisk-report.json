@@ -1,0 +1,43 @@
+{
+  "filesScanned" : 3,
+  "methodsExtracted" : 4,
+  "parseErrors" : 0,
+  "methods" : [ {
+    "file" : "src\\main\\java\\studentA.java",
+    "methodName" : "calculateAverage",
+    "parameters" : [ "totalMarks", "subjects" ],
+    "startLine" : 2,
+    "endLine" : 4,
+    "sourceCode" : "public double calculateAverage(int totalMarks, int subjects) {\r\n    return totalMarks / (double) subjects;\r\n}"
+  }, {
+    "file" : "src\\main\\java\\studentA.java",
+    "methodName" : "passed",
+    "parameters" : [ "marks" ],
+    "startLine" : 6,
+    "endLine" : 8,
+    "sourceCode" : "public boolean passed(int marks) {\r\n    return marks >= 40;\r\n}"
+  }, {
+    "file" : "src\\main\\java\\studentB.java",
+    "methodName" : "calculateAverage",
+    "parameters" : [ "markstotal", "subjectCount" ],
+    "startLine" : 2,
+    "endLine" : 4,
+    "sourceCode" : "public double calculateAverage(int markstotal, int subjectCount) {\r\n    return (double) markstotal / subjectCount;\r\n}"
+  }, {
+    "file" : "src\\main\\java\\studentB.java",
+    "methodName" : "passed",
+    "parameters" : [ "score" ],
+    "startLine" : 6,
+    "endLine" : 11,
+    "sourceCode" : "public boolean passed(int score) {\r\n    return score >= 40;\r\n}"
+  } ],
+  "duplicates" : [ {
+    "methodName1" : "passed",
+    "file1" : "src\\main\\java\\studentA.java",
+    "startLine1" : 6,
+    "methodName2" : "passed",
+    "file2" : "src\\main\\java\\studentB.java",
+    "startLine2" : 6
+  } ],
+  "duplicatePairs" : 1
+}
