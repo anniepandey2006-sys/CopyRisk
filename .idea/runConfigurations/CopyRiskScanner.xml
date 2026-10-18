@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="CopyRiskScanner" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="CopyRiskScanner" />
+    <module name="CopyRisk" />
+    <option name="PROGRAM_PARAMETERS" value="&quot;C:\Users\Aishwarya Pandey\IdeaProjects\CopyRisk\copyrisktest&quot;" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
